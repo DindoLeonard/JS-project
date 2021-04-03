@@ -154,6 +154,11 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResult);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  newFeature();
+};
+
+const newFeature = function () {
+  console.log('Welcome to the app');
 };
 
 init();
